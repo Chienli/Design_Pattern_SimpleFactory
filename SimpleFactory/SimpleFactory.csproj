@@ -42,11 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enum\ProductTypeEnum.cs" />
+    <Compile Include="Factories\IProductFactory.cs" />
+    <Compile Include="Factories\ProductFactory.cs" />
+    <Compile Include="Models\GooglePhone.cs" />
+    <Compile Include="Models\IProduct.cs" />
+    <Compile Include="Models\ApplePhone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
